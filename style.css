@@ -1,0 +1,132 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f4f9ff;
+  line-height: 1.5;
+}
+
+/* Header styles */
+header {
+  background-color: #1E1E1E;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav {
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section styles */
+#hero {
+  background-color: #c0d8f9;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #4f4f4f;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #4f4f4f;
+}
+
+.button {
+  background-color: #716aca;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #5d4ba6;
+}
+
+/* Services section styles */
+#services {
+  display: flex;
+  padding: 5rem 0;
+  background-color: #f4f9ff;
+}
+
+.service {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.service img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #4f4f4f;
+}
+
+.service p {
+  font-size: 1.25rem;
+  color: #4f4f4f;
+}
+
